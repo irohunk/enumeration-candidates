@@ -6,4 +6,11 @@ require './filters'
 
 ## Your test code can go here
 
-pp @candidates
+# pp @candidates
+# require_relative 'find'
+# candidate = find(9)
+# pp candidate
+
+# pp qualified_candidates(@candidates)
+puts
+pp ordered_by_qualifications(@candidates)
